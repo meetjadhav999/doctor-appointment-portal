@@ -1,0 +1,123 @@
+
+
+.main{
+    padding: 20px;  
+    height: 100vh;
+    
+}
+.sidebar{
+    background-color: #393E46;
+    border-radius: 15px;
+    box-shadow:  0 0 2px grey;
+min-height: 100%;
+padding: 10px;
+margin-right: 20px;
+
+    margin-right: 20px;
+    
+}
+
+
+.header{
+    background-color: #EEEEEE;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow:  0 0 2px grey;
+height: 10vh;
+    margin-bottom: 15px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.body{
+    padding: 18px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 2px grey;
+height: 82vh;
+overflow-y: scroll;
+-ms-overflow-style: none;  /* Internet Explorer 10+ */
+scrollbar-width: none;  /* Firefox */
+
+
+}
+.body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+.menu{
+padding: 0 10px;
+    margin-top: 50px;
+}
+.menu-item{
+    padding: 10px 0;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    -webkit-transition: background-color 400ms ease-out;
+    -moz-transition: background-color 400ms ease-out;
+    -o-transition: background-color 400ms ease-out;
+    transition: background-color 400ms ease-out;
+
+}
+.menu-item a{
+    color: #eeeeeeae;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-item i{
+    color: #eeeeeea8;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+.active-menu-item{
+    color: #EEEEEE;
+    background-color: rgba(0, 255, 255, 0.394);
+}
+.menu-item:hover{
+    color: #EEEEEE;
+    background-color: rgba(0, 255, 255, 0.156);
+ 
+}
+
+.close-icon{
+    font-size: 30px;
+    color: #222831 !important;
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+
+@media screen  and (max-width: 768px){
+    .menu{
+        padding: 0 0px;
+    }
+}
+.linkProfile{
+
+    color: #0d4f53 !important;
+    background-color: #d0dfe1 !important;
+    font-size: 15px !important;
+    text-decoration: underline !important;
+    border-radius: 10px !important;
+}
+.Title{
+    color: #EEEEEE;
+padding: 10px;
+font-weight: bold;
+
+
+
+}
